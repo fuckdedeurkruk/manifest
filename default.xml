@@ -1309,4 +1309,6 @@
   <include name="snippets/evolution.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
+  <!-- Dago -->
+  <include name="dago.xml" />
 </manifest>
