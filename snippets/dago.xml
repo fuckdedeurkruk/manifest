@@ -36,7 +36,7 @@
   <!--Xiaomi14Serie -->
   <project path="device/xiaomi/houji" name="android_device_xiaomi_houji" remote="lolipuru" />
   <project path="device/xiaomi/sm8650-common" name="device_xiaomi_sm8650-common" remote="lolipuru" />
-  <project path="android/kernel/xiaomi/sm8650" name="android_kernel_xiaomi_sm8650" remote="lolipuru" />
+  <project path="kernel/xiaomi/sm8650" name="android_kernel_xiaomi_sm8650" remote="lolipuru" />
   <project path="kernel/xiaomi/sm8650-modules" name="kernel_xiaomi_sm8650-modules" remote="lolipuru" />
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="markakash" />
   <project path="device/xiaomi/aurora" name="device_xiaomi_aurora" remote="markakash" />
