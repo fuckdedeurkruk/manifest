@@ -1310,5 +1310,5 @@
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
   <!-- Dago -->
-  <include name="dago.xml" />
+  <include name="snippets/dago.xml" />
 </manifest>
