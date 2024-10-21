@@ -41,6 +41,5 @@
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="markakash" />
   <project path="device/xiaomi/aurora" name="device_xiaomi_aurora" remote="markakash" />
   <project path="device/xiaomi/aurora-kernel" name="device_xiaomi_aurora-kernel" remote="markakash" />
-  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="markakash" />
   
 </manifest> 
