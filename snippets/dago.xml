@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- GitHub -->
-  <remote  name="github"
-           fetch="https://github.com" />
-
-  <!-- GitLab -->
-  <remote  name="gitlab"
-           fetch="https://gitlab.com" />
-  <!-- Dago gitlab -->
-  <remote  name="dago-gitlab"
-           fetch="https://gitlab.com/fuckdedeurkruk"
-           revision="refs/heads/dagobert" />
-
   <!-- Dago -->
   <remote  name="evo_dago"
            fetch="https://github.com/fuckdedeurkruk"
