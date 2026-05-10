@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="chandu"
+           fetch="https://github.com/OnePlus-SM8850-Development"
+           sync-c="true"
+           sync-j="4" />
+           
+  <remote  name="dago"
+           fetch="https://github.com/fuckdedeurkruk"
+           sync-c="true"
+           sync-j="4" />
+
   <remote  name="evo"
            fetch="https://github.com/Evolution-X"
            sync-c="true"
@@ -145,8 +155,7 @@
   <project path="vendor/extras" name="vendor_extras" remote="evo" revision="bq2" />
   <project path="vendor/google/overlays/ThemeIcons" name="vendor_google_overlays_ThemeIcons" remote="evo" />
   <project path="vendor/gms" name="vendor_gms" remote="evo-gitea" clone-depth="1" revision="bq2" />
-  <project path="vendor/gms-mosey" name="vendor_gms-mosey" remote="evo" revision="bq2" />
-  <project path="vendor/lineage" name="vendor_evolution" remote="evo" revision="bq2" />
+  <project path="vendor/lineage" name="vendor_evolution" remote="dago" revision="bq2" />
   <project path="vendor/pixel-style" name="vendor_pixel-style" remote="evo" revision="bq2" />
   <project path="vendor/themes" name="vendor_themes" remote="evo" revision="bq2" />
 </manifest>
