@@ -1,8 +1,8 @@
-![Evolution X](https://github.com/fuckdedeurkruk/manifest/raw/bq2/Banner.png)
+![Evolution X](https://github.com/DagobertX/manifest/raw/bq2/Banner.png)
 
 # Initialize local repository
 ```
-repo init -u https://github.com/fuckdedeurkruk/manifest -b bq2 --git-lfs
+repo init -u https://github.com/DagobertX/manifest -b bq2 --git-lfs
 ```
 
 # Sync up
