@@ -58,12 +58,16 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/release" name="build_release" groups="pdk,tradefed,sysui-studio" remote="evo" revision="bq2" />
   <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="evo" revision="bq2" />
 
   <!-- External -->
   <project path="external/FadingEdgeLayout" name="external_FadingEdgeLayout" remote="evo" />
   <project path="external/bouncycastle" name="external_bouncycastle" groups="pdk" remote="evo" revision="bq2" />
+  <project path="external/dng_sdk" name="external_dng_sdk" groups="pdk" remote="evo" revision="bq2" />
+  <project path="external/libpng" name="external_libpng" groups="pdk" remote="evo" revision="bq2" />
   <project path="external/piex" name="external_piex" groups="pdk" remote="evo" revision="bq2" />
+  <project path="external/sqlite" name="external_sqlite" groups="pdk" remote="evo" revision="bq2" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" groups="pdk,sysui-studio" remote="evo" revision="bq2" />
@@ -93,12 +97,16 @@
   <!-- Packages -->
   <project path="packages/apps/AppLocker" name="packages_apps_AppLocker" remote="evo" revision="bq2" />
   <project path="packages/apps/BtHelper" name="TheParasiteProject/packages_apps_BtHelper" revision="main" remote="github-non-los" />
+  <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="evo" revision="bq2" />
   <project path="packages/apps/ColumbusService" name="packages_apps_ColumbusService" remote="evo" />
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="evo" revision="bq2" />
   <project path="packages/apps/EvoEgg" name="packages_apps_EvoEgg" remote="evo" />
   <project path="packages/apps/Evolver" name="packages_apps_Evolver" remote="evo" revision="bq2" />
   <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="evo" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="evo" revision="bq2" />
+  <project path="packages/apps/KeyChain" name="packages_apps_KeyChain" groups="pdk-fs" remote="evo" revision="bq2" />
   <project path="packages/apps/LMOFreeform" name="packages_apps_LMOFreeform" remote="evo" revision="bq2" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="evo" revision="bq2" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="evo" revision="bq2" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="evo" />
   <project path="packages/apps/Sandbox" name="packages_apps_Sandbox" remote="evo" revision="bq2" />
@@ -110,8 +118,11 @@
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="evo" revision="bq2" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk" remote="evo" revision="bq2" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="evo" revision="bq2" />
+  <project path="packages/modules/Nfc" name="packages_modules_Nfc" groups="pdk-cw-fs,pdk-fs" remote="evo" revision="bq2" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="evo" revision="bq2" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="evo" revision="bq2" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="evo" revision="bq2" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="evo" revision="bq2" />
   <project path="packages/services/AxQuickLook" name="packages_services_AxQuickLook" remote="evo" revision="bq2" />
   <project path="packages/services/Iwlan" name="packages_services_Iwlan" groups="pdk-cw-fs,pdk-fs" remote="evo" revision="bq2" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="evo" revision="bq2" />
