@@ -2,6 +2,8 @@
 
 # Initialize local repository
 ```
+mkdir evolution
+
 repo init -u https://github.com/DagobertX/manifest -b bq2 --git-lfs
 ```
 
