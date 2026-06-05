@@ -1,8 +1,12 @@
 ![Evolution X](https://github.com/DagobertX/manifest/raw/bq2/Banner.png)
 
 # Initialize local repository
-```
-mkdir evolution and cd evolution
+
+- Set build directory
+```bash
+mkdir evolution
+
+cd evolution
 
 repo init -u https://github.com/DagobertX/manifest -b bq2 --git-lfs
 ```
