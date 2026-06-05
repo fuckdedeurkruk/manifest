@@ -2,12 +2,15 @@
 
 # Initialize local repository
 
-- Set build directory
+- Setup build directory
 ```bash
 mkdir evolution
 
 cd evolution
+```
 
+- Setup local repository
+```bash
 repo init -u https://github.com/DagobertX/manifest -b bq2 --git-lfs
 ```
 
