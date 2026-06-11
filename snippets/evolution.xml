@@ -63,7 +63,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="evo" revision="bq2" />
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="dago" revision="bq2" />
 
   <!-- External -->
   <project path="external/FadingEdgeLayout" name="external_FadingEdgeLayout" remote="evo" />
@@ -72,7 +72,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" groups="pdk,sysui-studio" remote="evo" revision="bq2" />
-  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="evo" revision="bq2" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="dago" revision="bq2" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="evo" revision="bq2" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="evo" revision="bq2" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk,sysui-studio" remote="evo" revision="bq2" />
