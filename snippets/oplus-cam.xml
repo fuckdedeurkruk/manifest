@@ -6,7 +6,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="vendor/oplus/camera-sm8850" name="tmp/vendor_oplus_camera-sm8850" />
-  <project path="vendor/oplus/proprietary_vendor_oplus_camera-sm8850" name="tmp/proprietary_vendor_oplus_camera-sm8850" />
+  <project path="vendor/oplus/camera-sm8850" name="1vivy/vendor_oplus_camera-sm8850" />
+  <project path="vendor/oplus/proprietary_vendor_oplus_camera-sm8850" name="1vivy/proprietary_vendor_oplus_camera-sm8850" />
 
 </manifest>
